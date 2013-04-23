@@ -1,0 +1,34 @@
+{
+    "ShapeBoxig"  : {
+        "name" : "ShapeBoxig", 
+        "activityId" : "365236",
+        "duration" : "3000000",
+        "calories" : "434", 
+        "startHour" : "21", 
+        "startMinute" : "35"
+    },
+    "Kickboxing_sat"  : {
+        "name" : "FIGHT DO", 
+        "activityId" : "55002",
+        "duration" : "3600000",
+        "calories" : "465", 
+        "startHour" : "20", 
+        "startMinute" : "50"
+    },
+    "Kickboxing_sun"  : {
+        "name" : "FIGHT DO", 
+        "activityId" : "55002",
+        "duration" : "3600000",
+        "calories" : "465", 
+        "startHour" : "16", 
+        "startMinute" : "30"
+    },
+    "Kickboxing45"  : {
+        "name" : "FIGHT DO", 
+        "activityId" : "55002",
+        "duration" : "2700000",
+        "calories" : "346", 
+        "startHour" : "21", 
+        "startMinute" : "45"
+    }
+}
