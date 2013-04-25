@@ -30,7 +30,7 @@ This program use the following services, API, package.
 
 You must register in advance activity.
 Please create a data.json file in json format.
-Example fastbit_config.sample.php:
+Example **fastbit_config.sample.php**:
 
 ```php
 define("FITBIT_KEY", "XXXXXXXXXX");
@@ -48,7 +48,7 @@ define("TWITTER_ACCESS_TOKEN_SECRET", "XXXXXXXXXX");
 
 First, pre-registered activities.
 Create a data.json file in json format.
-Example data.sample.json:
+Example **data.sample.json**:
 
 ```json
 {
@@ -90,6 +90,10 @@ http://dev.fitbit.com
  2. How to use ?
 -----------------
 Access to html/index.html, please select the button of activity that is displayed.
+
+<img src="http://media.tumblr.com/d93209b40a95ae641c022fdf6841c507/tumblr_inline_mlrjeoupDc1qz4rgp.png" alt="index.html" width="200" />
+
+It is useful to add  Website Icon on an iPhone 5 Home Screen.
 
 
 licence
