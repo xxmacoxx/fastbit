@@ -4,7 +4,7 @@ require_once ('lib/fitbitphp-master/fitbitphp.php');
 require_once ('../fastbit_config.php');
 
 // Fitbit setting
-$callback_url = "http://".$_SERVER["HTTP_HOST"];
+$callback_url = "http://".$_SERVER["HTTP_HOST"]."/index.html";
 $fitbit = new FitBitPHP(FITBIT_KEY, FITBIT_SECRET);
 $fitbit->initSession($callback_url);
 date_default_timezone_set('Asia/Tokyo');
@@ -51,5 +51,5 @@ $reply = (array) $cb->statuses_update($param);
 
 echo $xml->activityLog->name .' (' . ($xml->activityLog->duration)/60000 .'min) done !';
 echo '<hr>';
-echo 'twitter_httpstatus : ' . $reply[httpstatus];
+echo 'twitter_httpstatus : ' . $reply['httpstatus'];
 
